@@ -1,0 +1,10 @@
+main {
+    padding: 0px 100px;
+}
+.button {
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-right: 10px;
+}

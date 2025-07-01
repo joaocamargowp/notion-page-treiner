@@ -7,58 +7,72 @@
     <title>O espaço de trabalho com IA que funciona do seu jeito. | Notion</title>
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section-aprensentacao.css">
+    <link rel="stylesheet" href="css/figure.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
         <img src="img/notion icon.png" alt="">
+        <div class="row-links">
+            <nav>
+                <ul>
+                    <li><a href="#">Notion <img src="img/seta-para-baixo.png" alt="" class="seta"></a></li>
+                    <li><a href="#" id="new">Mail</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">IA</a></li>
+                    <li><a href="#">Enterprise</a></li>
+                    <li><a href="#">Preços</a></li>
+                    <li><a href="#">Explorar <img src="img/seta-para-baixo.png" alt="" class="seta"></a></li>
+                    <li><a href="#">Solicite uma demonstração</a></li>
+                    <li><a href="#">Fazer login</a></li>
+                </ul>
+            </nav>
 
-        <nav>
-            <ul>
-                <li>Notion</li>
-                <li>Mail</li>
-                <li>Calendar</li>
-                <li>IA</li>
-                <li>Enterprise</li>
-                <li>Preços</li>
-                <li>Explorar</li>
-                <li>Solicite uma demonstração</li>
-            </ul>
-        </nav>
-
-        <div>
-            <button>Fazer login</button>
-            <button>Use o Notion de Graça</button>
+        
+            
+            <button>Use o Notion de graça</button>
         </div>
     </header>
 
     <main>
-        <section class="apresentação">
-            <div>
+        <section class="apresentacao">
+            <div class="wraper-box">
                 
-                <h1>O espaço de trabalho com IA que funciona do seu jeito.</h1>
-                <p>Um lugar onde as equipes encontram todas as respostas, automatizam a rotina e aceleram a conclusão dos projetos.</p>
-                <button>instale o Notion gratuitamente</button>
-                <button>Solicite uma demonstração</button>
+                <h1 id="top-text">O espaço de <br> trabalho com IA que funciona do seu jeito.</h1>
+                <p>Um lugar onde as equipes encontram <br> todas as respostas, automatizam a rotina <br> e aceleram a conclusão dos projetos.</p>
+
+                <button class="button -install">instale o Notion gratuitamente</button>
+
+                <button class="button -demo">Solicite uma demonstração</button>
             </div>
             
-            <img src="img/banner apresentação.avif" alt="">
+        <div class="banner-apresentacao"><img src="img/banner apresentação.avif" alt="" ></div>
 
-            <figure>
+           
+        </section>
+
+         <figure>
 
                 <p>Preferidos pelas equipes de alta performance</p>
 
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </figure>                
-        </section>
+                <img src="img/OpenAI-black-wordmark-cropped.avif" alt="" class="img-equip">
+                <img src="img/Figma-logo-color.svg" alt="" class="img-equip">
+                <img src="img/volvo.avif" alt="" class="img-equip">
+                <img src="img/ramp.avif" alt="" class="img-equip">
+                <img src="img/cursor.avif" alt="" class="img-equip">
+                <img src="img/Headspace-logo-color.svg" alt="" class="img-equip">
+                <img src="img/1Password_CLASSIC_primary_logo_light_backgrounds_intrepid_blue.avif" alt="" class="img-equip">
+            </figure>       
+            
+            
     </main>
+
 
     
 </body>

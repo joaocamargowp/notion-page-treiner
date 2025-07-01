@@ -1,1 +1,73 @@
--
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 23px;
+    font-family: "Inter", sans-serif; 
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+header img {
+    width: 34px;
+}
+
+.row-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: ease-in-out 0.1s;
+}
+
+nav ul li a:hover {
+    background-color: #e9e7e7;
+}
+
+#new::after {
+    content: "Novo";
+    background-color: #eaf5f8;
+    color: rgb(8, 103, 158);
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#new:hover::after {
+    background-color: #ffffff;
+}
+
+.row-links button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-family: inherit;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.row-links button:hover {
+    color: rgb(231, 231, 231);
+}
+
+.seta{
+    width: 8px;
+    margin-left: 5px;
+}
+

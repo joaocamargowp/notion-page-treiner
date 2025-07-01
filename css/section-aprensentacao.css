@@ -1,0 +1,60 @@
+section.apresentacao {
+    padding: 64px 0px;
+    display: flex;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.wraper-box {
+    width: 55%;
+}
+
+.wraper-box p {
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+#top-text {
+    text-align: start;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.banner-apresentacao {
+    width: 50%;
+    height: auto;
+}
+
+.banner-apresentacao img {
+    width: 90%;
+    height: auto;
+}
+
+.button.-install {
+    font-size: 16px;
+    background-color: rgb(42, 147, 233);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button.-install:hover {
+    background-color: rgb(8, 103, 158);
+}
+
+.button.-demo {
+    font-size: 16px;
+    background-color: rgb(243, 248, 253);
+    color: rgb(33, 104, 163);
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button.-demo:hover {
+    background-color: rgb(208, 228, 240);
+}
+
+
+
