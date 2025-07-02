@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/section-aprensentacao.css">
     <link rel="stylesheet" href="css/figure.css">
+    <link rel="stylesheet" href="css/mediaquerys.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <script src="javascript.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -19,7 +23,7 @@
 
     <header>
         <img src="img/notion icon.png" alt="">
-        <div class="row-links">
+        
             <nav>
                 <ul>
                     <li><a href="#">Notion <img src="img/seta-para-baixo.png" alt="" class="seta"></a></li>
@@ -30,21 +34,24 @@
                     <li><a href="#">Preços</a></li>
                     <li><a href="#">Explorar <img src="img/seta-para-baixo.png" alt="" class="seta"></a></li>
                     <li><a href="#">Solicite uma demonstração</a></li>
-                    <li><a href="#">Fazer login</a></li>
                 </ul>
             </nav>
 
+            <div class="row-links"> 
+                <button class="button -login">Fazer login</button>
+                <button>Use o Notion de graça</button>
+
+                <button id="btn-menu">&#9776;</button>
+                <button id="back-menu">X</button>
+            </div>
         
-            
-            <button>Use o Notion de graça</button>
-        </div>
     </header>
 
     <main>
         <section class="apresentacao">
             <div class="wraper-box">
                 
-                <h1 id="top-text">O espaço de <br> trabalho com IA que funciona do seu jeito.</h1>
+                <h1 id="top-text">O espaço de trabalho com IA que funciona do seu jeito.</h1>
                 <p>Um lugar onde as equipes encontram <br> todas as respostas, automatizam a rotina <br> e aceleram a conclusão dos projetos.</p>
 
                 <button class="button -install">instale o Notion gratuitamente</button>
@@ -58,16 +65,20 @@
         </section>
 
          <figure>
-
-                <p>Preferidos pelas equipes de alta performance</p>
-
-                <img src="img/OpenAI-black-wordmark-cropped.avif" alt="" class="img-equip">
-                <img src="img/Figma-logo-color.svg" alt="" class="img-equip">
-                <img src="img/volvo.avif" alt="" class="img-equip">
-                <img src="img/ramp.avif" alt="" class="img-equip">
-                <img src="img/cursor.avif" alt="" class="img-equip">
-                <img src="img/Headspace-logo-color.svg" alt="" class="img-equip">
-                <img src="img/1Password_CLASSIC_primary_logo_light_backgrounds_intrepid_blue.avif" alt="" class="img-equip">
+               
+                    <p>Preferidos pelas equipes de alta performance</p>
+               
+                
+            <div>
+                
+                    <img src="img/OpenAI-black-wordmark-cropped.avif" alt="" class="img-equip">
+                    <img src="img/Figma-logo-color.svg" alt="" class="img-equip">
+                    <img src="img/volvo.avif" alt="" class="img-equip">
+                    <img src="img/ramp.avif" alt="" class="img-equip">
+                    <img src="img/cursor.avif" alt="" class="img-equip">
+                    <img src="img/Headspace-logo-color.svg" alt="" class="img-equip -sumir">
+                    <img src="img/1Password_CLASSIC_primary_logo_light_backgrounds_intrepid_blue.avif" alt="" class="img-equip -sumir">
+            </div>
             </figure>       
             
             

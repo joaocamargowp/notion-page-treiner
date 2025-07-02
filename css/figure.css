@@ -1,7 +1,8 @@
 figure {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 40px 0px;
     font-family: "Inter", sans-serif;
 }
@@ -12,7 +13,8 @@ figure p {
 }
 
 .img-equip {
-    width: 80px;
+    max-width: 70px;
+    min-width: 40px;
     margin-left: 40px;
     height: auto;
 }

@@ -1,0 +1,95 @@
+
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+
+    section.apresentacao {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .banner-apresentacao {
+        order: -1;
+    }
+
+    .wraper-box , .banner-apresentacao {
+        min-width: 90%; 
+        max-width: 70%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .wraper-box p {
+        font-size: 20px;
+    }
+    #top-text {
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    header {
+    }
+
+    nav {
+
+
+    }
+         nav ul {
+        display: none;
+        font-size: 25px;
+        font-weight: 700;
+        flex-direction: column;
+        position: absolute;
+        gap: 20px;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #ffffff;
+        padding-top: 20px;
+        z-index: 3;
+        transition: opacity 0.3s ease-in-out;
+    }
+   
+
+
+}
+
+@media screen and (max-width: 1300px) {
+    figure {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    figure p {
+        margin-bottom: 20px;
+    }
+}
+    
+
+
+@media screen and (max-width: 1550px) {
+     .img-equip.-sumir {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+ 
+    #btn-menu {
+        display: none;
+    }
+
+
+    
+}
