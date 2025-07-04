@@ -20,3 +20,24 @@ window.addEventListener('resize', () => {
     btnmenu.style.display = '';
     backmenu.style.display = '';
 });
+
+const seta = document.getElementById('notion');
+const setaImg = document.getElementById('seta-1');
+seta.addEventListener('click', () => {
+    if (setaImg.style.transform === 'rotate(180deg)') {
+        setaImg.style.transform = 'rotate(0deg)';
+    } else {
+        setaImg.style.transform = 'rotate(180deg)';
+    }
+});
+
+const seta2 = document.getElementById('explorar');
+const setaImg2 = document.getElementById('seta-2');
+
+seta2.addEventListener('click', () => {
+    if (setaImg2.style.transform === 'rotate(180deg)') {
+        setaImg2.style.transform = 'rotate(0deg)';
+    } else {
+        setaImg2.style.transform = 'rotate(180deg)';
+    }
+});
