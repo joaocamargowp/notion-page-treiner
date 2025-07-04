@@ -1,0 +1,32 @@
+section.notion {
+    top: 55px;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+}
+
+.notion ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.notion-links {
+    background-color: rgb(189, 189, 189);
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.wraper-notion {
+    width: 20%;
+}
