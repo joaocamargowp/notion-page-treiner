@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 const btnmenu = document.getElementById('btn-menu');
 const backmenu = document.getElementById('back-menu');
 const menu = document.querySelector('nav ul');
